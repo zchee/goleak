@@ -1,8 +1,8 @@
-// Copyright 2020 The goleak Authors.
+// SPDX-FileCopyrightText: Copyright 2020 The goleak Authors
 // SPDX-License-Identifier: BSD-3-Clause
 
-// +build go1.13
-// +build !go1.17
+//go:build go1.11 && !go1.18
+// +build go1.11,!go1.18
 
 #include "textflag.h"
 

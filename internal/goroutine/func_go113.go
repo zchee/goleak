@@ -1,8 +1,8 @@
-// Copyright 2020 The goleak Authors.
+// SPDX-FileCopyrightText: Copyright 2020 The goleak Authors
 // SPDX-License-Identifier: BSD-3-Clause
 
-// +build go1.13
-// +build !go1.16
+//go:build go1.13 && !go1.16
+// +build go1.13,!go1.16
 
 package goroutine
 
