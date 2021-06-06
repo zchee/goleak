@@ -18,10 +18,12 @@ type _func struct {
 	args        int32
 	deferreturn uint32
 
-	pcsp      int32
-	pcfile    int32
-	pcln      int32
-	npcdata   int32
+	pcsp      uint32
+	pcfile    uint32
+	pcln      uint32
+	npcdata   uint32
+	cuOffset  uint32
 	funcID    uint8 // funcID
+	_         [2]byte
 	nfuncdata uint8
 }
